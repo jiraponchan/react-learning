@@ -1,0 +1,80 @@
+.App{
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 70px;
+  align-items: center;
+  border-bottom: 1px solid #ccd5ae;
+  
+ 
+}
+
+.logo{
+  padding-left: 5%;
+  text-decoration: none;
+  
+}
+
+.menuitem{
+  padding-right: 5%;
+}
+.item{
+ padding-right: 15px;
+ text-decoration: none;
+}
+
+span{
+  color:red;
+}
+
+.section{
+  border: 1px solid #a113;
+  margin: 15px auto;
+}
+
+button{
+  padding: 5px;
+  border: 0px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  background-color: var(--pink);
+  cursor: pointer;
+  color: #f5f5f5;
+}
+
+.blog-preview{
+  background-color: var(--green);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 350px;
+  box-shadow: 1px 3px 5px rgb(0,0,0,0.1);
+}
+
+.blog-preview h3 {
+  color:var(--yellow)
+}
+
+.blogs-grid{
+  display: grid;
+  grid-template-columns:1fr 1fr ;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tbody:nth-child(even) {
+  background-color: #dddddd;
+}

@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+:root{
+  --pink:#cdb4db;
+  --green:#2a9d8f;
+  --yellow:#ee9b00;
+}
+
+body{
+  font-family: 'Prompt', sans-serif;
+  background-color: #fefae0;
+}
